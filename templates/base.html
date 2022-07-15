@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
-    <head>
-        <meta charset="UTF-8">
-        <title>Department Chatbot</title>
-    </head>
-    <body>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Department Chatbot</title>
+</head>
+<body>
+    <div class ="header" style="background-image:linear-gradient(rgba(121, 135, 182, 0.705), rgba(54, 54, 75, 0.637)), url(static/images/gehu.jpeg);">
+        <div>
+            <img src="static/images/finalogo.png" width="30%" style="padding-top: 0px;padding-left: 0px;position: relative;">
+        </div>
         <div class="container">
             <div class="chatbox">
                 <div class="chatbox__support">
@@ -14,8 +19,8 @@
                             <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
                         </div>
                         <div class="chatbox__content--header">
-                            <h4 class="chatbox__heading--header">Chat support</h4>
-                            <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                            <h4 class="chatbox__heading--header">FAQ Support</h4>
+                            <p class="chatbox__description--header">Hi, My name is Ayush. How can I help you?</p>
                         </div>
                     </div>
                     <div class="chatbox__messages">
@@ -27,14 +32,11 @@
                     </div>
                 </div>
                 <div class="chatbox__button">
-                    <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+                    <button><img src="./images/chatbox-icon.svg"/></button>
                 </div>
             </div>
         </div>
-        
-            <script>
-                $SCRIPT_ROOT = {{ request.script_root|tojson }};
-            </script>
-            <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
-    </body>
+    <script src="./app.js"></script>
+    </div>
+</body>
 </html>
