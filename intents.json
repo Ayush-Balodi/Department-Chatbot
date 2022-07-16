@@ -32,52 +32,112 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "admission",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "When are the admissions going to start?",
+        "When is the commencement of new session?",
+        "When is the new batch starting?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "The session usually starts in September and admission for the same begins from July.",
+        "July marks the begining of admisssion process for new session."
       ]
     },
     {
       "tag": "payments",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Can I pay fees using credit card?",
+        "What type of payments do you accept?",
+        "CAn I pay using debit card?",
+        "Can I pay with UPI?",
+        "Can I pay with cash?",
+        "Is cash acceptable for fees?",
+        "Do you take fees via UPI?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept UPI, Cash, Credit card, Debit Card",
+        "We accept most major credit and debit card and also Cash and UPI."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "bookings",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "When does the booking for hostel begins?",
+        "When does the hostel available for boys?",
+        "When does the hostel is available for girls?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Hostel booking are available from month of March-April for both boys and girls.",
+        "Bookings for hostels begin in March and ends nearly in April."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "courses",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What are the courses available in GEHU?",
+        "Courses in GEHU",
+        "What are the courses?",
+        "what are the variety of courses GEHU sell?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "We provide Batchelors in Computer Science, Business Studies , Law , Commerce , Science , Information Technology, Engineering and many more...",
+        "You can check this is on the website https://www.gehu.ac.in/content/gehu/en/about.html"
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "What is the placement in GEHU?",
+        "How many students are placed this session?",
+        "What is the average number of students placed?",
+        "How many companies visited the campus?",
+        "How many startups visits the campus?"
+      ],
+      "responses": [
+        "There are 200+ companies who visits the campus of GEHU every year. More on the website https://www.gehu.ac.in/content/gehu/en/placement.html",
+        "You can check this is on the website https://www.gehu.ac.in/content/gehu/en/placements.html"
+      ]
+    },
+    {
+      "tag": "packages",
+      "patterns": [
+        "What is the average package in this session?",
+        "What is the hishest package?",
+        "What is the lowest package this session?",
+        "What are the salary offered this placement season?",
+        "What are the total number of highest packages in this placement season?"
+      ],
+      "responses":[
+        "Highest package => 44.14 LPA , Average package => 5.75 LPA , Lowest package => 3.25LPA",
+        "You can find the relevant details here https://www.gehu.ac.in/content/gehu/en/placements.html",
+        "This can be found here https://www.gehu.ac.in/content/gehu/en/placements.html"
+      ] 
+    },
+    {
+      "tag": "fees",
+      "patterns":[
+        "What is the fees structure?",
+        "What is the BTech fees?",
+        "How much BTech cost for four years?",
+        "How much for the course with hostel included?",
+        "What is the average fees one needs to pay for the semester of BTech?"
+      ],
+      "responses":[
+        "The fees structure for the Btech this season is : https://collegedunia.com/university/57205-graphic-era-hill-university-gehu-dehradun/courses-fees",
+        "https://collegedunia.com/university/57205-graphic-era-hill-university-gehu-dehradun/courses-fees"
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns":[
+        "What is the timetable for the semester?",
+        "What is the timetable for teachers?",
+        "When is the free time of teachers?",
+        "When the PDP department is free?",
+        "When the HOD are free to listen to the students?"
+      ],
+      "responses":[
+        "For the timetable relate issues contact your HOD."
       ]
     }
   ]
