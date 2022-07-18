@@ -52,7 +52,7 @@ def get_response(msg):
 
 
 if __name__ == "__main__":
-    print("Hi!, This is GEHU bot, what can I do (type 'quit' to exit)")
+    print("Hi!, This is GEHU bot, how can I help you? (type 'quit' to exit)")
     while True:
         # sentence = "do you use credit cards?"
         sentence = input("You      : ")
